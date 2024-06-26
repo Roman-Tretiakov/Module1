@@ -20,7 +20,7 @@ my_set = {(1, 2, 3), 10, True, 'Set', 99.99, 10, 'Set', 99.99, (1, 2, 3)}
 
 print(f'Set: {my_set}')
 
-my_set.update([100, 200, 'List', 200])
+my_set.update([100, 'Apple'])
 my_set.discard(True)
 
 print(f'Modified set: {my_set}')
